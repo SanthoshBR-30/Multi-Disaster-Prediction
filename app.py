@@ -38,7 +38,7 @@ print("  Downloading dense classifier...")
 DENSE_CLASSIFIER_PATH = hf_hub_download(
     repo_id=HF_REPO_ID, filename=DENSE_CLASSIFIER_FILE, token=HF_TOKEN
 )
-print("All downloads complete ")
+print("All downloads complete ✅")
 
 # ── Load class names ──────────────────────────────────────────────────────────
 with open(CLASS_NAMES_PATH, "r") as f:
@@ -60,7 +60,7 @@ for name, path in MODEL_PATHS.items():
 
 print("  Loading dense classifier...")
 dense_classifier = tf.keras.models.load_model(DENSE_CLASSIFIER_PATH)
-print("All models loaded ")
+print("All models loaded ✅")
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def preprocess_image(image_bytes):
@@ -118,4 +118,4 @@ def static_files(filename):
 
 # ── Run ───────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001, debug=False)
+    app.run(host="0.0.0.0", port=7860, debug=False)
