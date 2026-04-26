@@ -92,7 +92,7 @@ Open `index.html` in your browser, or use VS Code Live Server.
 If you use this work, please cite:
 
 ```
-Srusti T D  "SafeHaven: Multi-Disaster Prediction using Deep
+Santhosh B R  "SafeHaven: Multi-Disaster Prediction using Deep
 Convolutional Neural Networks." Dayananda Sagar College of Engineering,
 Bengaluru, India. 2025.
 ```
