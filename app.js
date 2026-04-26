@@ -1,4 +1,4 @@
- const API = "http://localhost:5001/predict";
+const API = window.location.origin + "/predict";
     let selectedFile = null;
 
 const toggleBtn = document.getElementById("toggle");
